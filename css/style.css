@@ -72,3 +72,20 @@ body{
         height:22px;
         margin:0px 7px;
       }
+      #bio{
+        margin-top: 15px;
+      background-color:#EAECEE ;
+      padding:5px 0px;
+      font-size: 12px;
+      }
+      #bio div{
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        margin:15px 35px;
+      }
+      #bio img{
+        margin-right:10px;
+        width:15px;
+        height:15px;
+      }
