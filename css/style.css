@@ -28,3 +28,14 @@ body{
     height:500px;
     box-shadow: 0px 0px 4px 0px gray;
   }
+  #profile-image{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+  }
+  #profile-image img{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 4px 0px gray;
+    }
