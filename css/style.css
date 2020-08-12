@@ -61,3 +61,14 @@ body{
         padding:8px 15px;border-radius: 15px;
         display: inline-block;
       }
+      #social{
+        display: flex;
+        justify-content: center;
+      margin-top: 15px;
+      
+      }
+      #social img{
+        width:22px;
+        height:22px;
+        margin:0px 7px;
+      }
