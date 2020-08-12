@@ -89,3 +89,27 @@ body{
         width:15px;
         height:15px;
       }
+      #send-email{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height:135px ;
+      }
+      
+      button{
+        border:0px;
+      }
+      
+      #email{
+        background-color:#3498DB;
+        color:white;
+        font-size: 15px;
+        padding:7px 25px;
+        border-radius:15px;
+        outline: none;
+      }
+      
+      button:hover{
+        opacity:0.8;
+        cursor: pointer;
+      }
