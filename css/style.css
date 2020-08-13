@@ -113,3 +113,6 @@ body{
         opacity:0.8;
         cursor: pointer;
       }
+      #about{
+        padding:20px;
+      }
