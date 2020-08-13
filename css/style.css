@@ -134,4 +134,120 @@ body{
         background-color:#3498DB;
         border-radius: 10px;
       } 
+      #cv{background-color:#EAECEE;
+
+        display: grid;
       
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows:1fr 1fr;
+      }
+      
+      #cv img{
+        width:36px;
+        height: 36px;
+      
+      }
+      
+      #cv h1{
+        font-size: 15px;
+      
+      }
+      .biobox div{
+        padding:5px;
+        margin:0px;
+      
+      }
+      #cv h2{
+        font-size: 10px;
+        color:#566573;
+      }
+      .biobox{
+        border-radius: 15px;
+        padding:25px;
+        margin:10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:white ;
+      }
+      
+      #ltitle{
+        padding:10px 15px;
+        background-color:#EAECEE ;
+      }
+      
+      #menubutton{
+        width: 30px;
+        height: 30px;transition: all .6s;
+      float:right;
+      }
+      
+      #menubutton:hover{
+        cursor: pointer;transition: all .6s;
+      }
+      
+      ul{
+        padding:0px;
+        margin:0px;
+        list-style: none;transition: all .6s;
+      }
+      
+      ul li{transition: all .6s;
+        font-size: 12px;
+        color:white;
+        padding:15px 7px;
+      color:#3498DB;
+      text-align: center;
+      
+      }
+      
+      li:hover{
+        background-color:#3498DB;
+        cursor: pointer;
+        color:white;transition: all .3s;
+      }
+      #menucon{overflow: hidden;
+        transition: all .3s;
+        position: absolute;
+      margin-left: 60%;
+      margin-top: -20px;
+        background-color:white;
+        box-shadow:0px 0px 4px 1px gray;
+      border-radius:10px;
+      
+      
+      }
+      
+      
+      @media screen and (max-width: 600px) {
+      
+        #main{
+          display: flex;
+          flex-wrap: wrap;
+        }
+        #cv{background-color:#EAECEE;
+      
+          display: grid;
+      
+        grid-template-columns: 1fr;
+        grid-template-rows:1fr 1fr 1fr 1fr;
+        }
+      
+        #left-side-box{overflow:hidden;
+          background-color: white;
+          border-radius: 10px;
+          width:95%;
+          height:auto;
+          box-shadow: 0px 0px 4px 0px gray;
+          margin: 15px;
+        }
+      
+        #right-side-box{overflow:hidden;
+          margin: 15px;
+          background-color: white;
+          border-radius: 10px;
+          width:600px;
+          height:auto;
+          box-shadow: 0px 0px 4px 0px gray;
+        }
+      }
